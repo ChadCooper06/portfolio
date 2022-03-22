@@ -1,1 +1,1 @@
-# portfolio
+This is my portfolio of the work I have completed during my Awesome Inc. Bootcamp. My blog posts will showcase my journey through the bootcamp as well as my thoughts and feelings about my experience.
