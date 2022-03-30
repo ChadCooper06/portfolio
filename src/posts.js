@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-export default function Posts ({ props }) {
+const Posts ({ props }) {
     
     //this is the format of the posts themselves
   return(
@@ -17,3 +17,4 @@ export default function Posts ({ props }) {
     </div>
   )
 }
+export default Posts
