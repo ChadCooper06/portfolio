@@ -1,13 +1,17 @@
 import React from "react";
 import './App.css';
-export default function LandingPage() {
 
-return(
-    <div className='landing'>
-        <div className='landing-text'>
-            <h1>Portfolio</h1>
 
+const LandingPage() {
+
+    return(
+        <div className='landing'>
+            <div className='landing-text'>
+                <h1>Chad Cooper</h1>
+                <h3>Full stack web developer</h3>
+
+            </div>
         </div>
-    </div>
-)
+    )
 }
+export default LandingPage
