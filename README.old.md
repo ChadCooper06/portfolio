@@ -1,1 +1,1 @@
-This is my portfolio of the work I have completed during my Awesome Inc. Bootcamp. My blog posts will showcase my journey through the bootcamp as well as my thoughts and feelings about my experience.
+This is my portfolio of the work I have completed during my Awesome Inc. Bootcamp. My blog posts will showcase my journey through the bootcamp as well as my thoughts and feelings about my experience. This new iteration of my portfolio was created using React and is responsive and showcases my past projects.
