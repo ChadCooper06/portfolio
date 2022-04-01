@@ -3,7 +3,7 @@ import "./App.css";
 import Layout from "./layout";
 
 
-const LandingPage() {
+const LandingPage = () => {
 
     return(
         <div className='landing'>

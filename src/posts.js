@@ -1,8 +1,8 @@
 //template for each individual post
 import React from 'react';
+import post from './blog-posts'
 
-
-const Posts ({ props }) {
+const Posts = ({ props }) => {
     
     //this is the format of the posts themselves
   return(
