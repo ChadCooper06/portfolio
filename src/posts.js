@@ -8,7 +8,7 @@ const Posts = ({ props }) => {
   return(
     <div className='post-container'>
       <div className='post'>
-        <h3 className='post-title'></h3>
+        <h3 className='post-title'>{post.title}</h3>
 
         <p className='content'>
         {post.text}
