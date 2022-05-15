@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Post = () => {
+const Post1 = () => {
     
     //this is the format of the posts themselves
   return(
@@ -21,4 +21,4 @@ const Post = () => {
     </div>
   )
 }
-export default Post
+export default Post1
