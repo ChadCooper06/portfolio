@@ -1,11 +1,9 @@
 import React from 'react';
-//import aboutImage from '../pictures/surfing.jpeg'
 
 export default function AboutMe() {
   return (
     <div className="aboutPageContainer" >
       <div className="aboutImageWrapper">
-        <img className="aboutImage" src={aboutImage} alt="about me"></img>
       </div>
         <h1 className="aboutPageHeader">About me.</h1>
       <div className="aboutMeBioBox">

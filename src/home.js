@@ -1,13 +1,10 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
-import headShot from '../pictures/headshotSquare.jpeg';
-import github from '../pictures/Github.svg';
-import email from '../pictures/Email.svg';
-import instagram from '../pictures/Instagram.svg';
-import phone from '../pictures/Phone.svg';
-import finalproject from '../pictures/final-project.png';
-import restaurant from '../pictures/restaurant.png';
-import todolist from '../pictures/to-do-list.png';
+import { Link, useNavigate } from "react-router-dom";
+//import headShot from '../pictures/headshotSquare.jpeg';
+import { GoDeviceMobile, GoMarkGithub, GoMail } from "react-icons/go";
+import finalproject from '../images/final-project.png';
+import tictactoe from '../images/tictactoe.png';
+import weatherapp from '../images/weatherapp.png';
 
 
 
@@ -26,19 +23,19 @@ export default function Home() {
         <h1 className="homePageHeader">Chad Cooper</h1>
         <p className="homePageSubheader">Full Stack Web Developer </p>
         <div className="svgBlock">
-          <a className="svg" href="mailto:chadcooper06@gmail.com" ><img src={email} width="60px" height="60px" alt="mail svg" /></a>
-          <a className="svg" href="https://github.com/chadcooper06" ><img src={github} width="60px" height="60px" alt="github svg" /></a>
-          <a className="svg" href="tel:+8596996947"><img src={phone} width="60px" height="60px" alt="phone svg" /></a>
+          <Link className="svg" href="mailto:chadcooper06@gmail.com" ><img src={GoMail} width="60px" height="60px" alt="email" /></Link>
+          <Link className="svg" href="https://github.com/chadcooper06" ><img src={GoMarkGithub} width="60px" height="60px" alt="github" /></Link>
+          <Link className="svg" href="tel:+8596996947"><img src={GoDeviceMobile} width="60px" height="60px" alt="call me" /></Link>
         </div>
       </div>
-      <div className="homeRight">
+      {/* <div className="homeRight">
         <img className="headShot" src={headShot} alt="headshot"></img>
-      </div>
+      </div> */}
     </div>
-        <h3 className="recentProjects" >Recent Projects.</h3>
+        <h3 className="recentProjects">Recent Projects.</h3>
       <div className="belowTheFold">
         <div>
-            <a href="https://mud-buds.herokuapp.com/">
+            <a href="https://hikers-haven.herokuapp.com/">
               <img className="projectDisplayHome" src={finalproject} alt="final project"></img>
             </a>
           <h4 className="projectTitle" >Hiker's Haven Forum</h4>

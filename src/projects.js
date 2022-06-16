@@ -1,10 +1,10 @@
 import React from 'react';
-import finalproject from '../pictures/final-project.png';
-import restaurant from '../pictures/restaurant.png';
-import todolist from '../pictures/to-do-list.png';
-import tictactoe from '../pictures/tic-tac-toe.png';
-import weatherapp from '../pictures/weather-app.png';
-import evercraft from '../pictures/evercraft.png';
+import finalproject from '../images/final-project.png';
+import restaurant from '../images/restaurant.png';
+import todolist from '../images/to-do-list.png';
+import tictactoe from '../images/tic-tac-toe.png';
+import weatherapp from '../images/weather-app.png';
+import evercraft from '../images/evercraft.png';
 
 export default function Projects() {
   return (
@@ -36,7 +36,7 @@ export default function Projects() {
         <a href="https://chadcooper06.github.io/Tic-Tac_Toe/">
           <img className="projectDisplayHome" src={tictactoe} alt="project"></img>
         </a>
-        <h4 className="projectTitle" >Tic-Tac-Toe</h4>
+        <h4 className="projectTitle">Tic-Tac-Toe</h4>
         <p className="projectDescription" >Simple tic-tac-toe game using Object <br/> Oriented Programming and MVC framework.</p>
       </div>
       <div >
