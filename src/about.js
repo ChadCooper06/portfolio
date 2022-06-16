@@ -5,7 +5,7 @@ export default function AboutMe() {
     <div className="aboutPageContainer" >
       <div className="aboutImageWrapper">
       </div>
-        <h1 className="aboutPageHeader">About me.</h1>
+        <h1 className="aboutPageHeader">About me</h1>
       <div className="aboutMeBioBox">
         <p className="aboutMeBio">
           Hey there! I'm Chad and I'm a full stack Jr developer ready to make my mark. From January to May 2022 I attended and completed an 

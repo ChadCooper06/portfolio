@@ -1,10 +1,10 @@
 import React from 'react';
-import finalproject from '../images/final-project.png';
-import restaurant from '../images/restaurant.png';
-import todolist from '../images/to-do-list.png';
-import tictactoe from '../images/tic-tac-toe.png';
-import weatherapp from '../images/weather-app.png';
-import evercraft from '../images/evercraft.png';
+import finalproject from './images/finalproject.png';
+import restaurant from './images/restaurant.png';
+import todolist from './images/to-do-list.png';
+import tictactoe from './images/tictactoe.png';
+import weatherapp from './images/weatherapp.png';
+import evercraft from './images/evercraft.png';
 
 export default function Projects() {
   return (

@@ -1,11 +1,67 @@
-.landing-text{
-  background-color: "url(../images/subway.pdf)";
-  text-align: "center";
-  height: "80vh";
-  background-position: "center";
-  background-size: "cover";
-  background-repeat: "no-repeat";
-  color: "white";
-  margin: "0";
-  justify-content: "center";
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homePageContainer {
+  justify-content: center;
+  align-items: center;
+}
+.homePageHeader {
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: transparent;
+  padding-top: 2.5rem;
+}
+.homePageSubheader {
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.iconBlock {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1rem;
+}
+.recentProjects {
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.belowTheFold {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.projectDisplayHome {
+  width: fit-content;
+  height: 15rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card {
+  justify-content: center;
+  border: 1px solid white;
+  align-items: center;
+}
+.projectTitle {
+  justify-content: center;
+  align-items: center;
+}
+.projectDescription {
+  justify-content: center;
+  align-items: center;
+
 }
