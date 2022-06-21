@@ -1,29 +1,56 @@
 
+html {
+  background-image: ;
+}
+.footer {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+}
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+  gap: .3rem;
+  background-color: antiquewhite;
+}
+.links {
+  display: inline-flex;
+  gap: .2rem;
+  text-decoration-color: blue;
 }
 .homePageContainer {
-  justify-content: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: left;
   align-items: center;
+
+}
+.homeLeft {
+  width: fit-content;
 }
 .homePageHeader {
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-content: left;
+  align-content: center;
   font-size: 6rem;
   font-weight: bold;
   margin-top: auto;
-  margin-bottom: auto;
-  background: transparent;
+  margin-bottom: 0;
   padding-top: 2.5rem;
 }
 .homePageSubheader {
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
   margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-top: 0;
+  padding-left: 5rem;
+  color: dimgrey;
 }
 .iconBlock {
   display: inline-flex;
@@ -32,8 +59,10 @@
   align-items: center;
   font-size: 2rem;
   gap: 1rem;
+
 }
 .recentProjects {
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
@@ -46,22 +75,59 @@
   gap: 2rem;
 }
 .projectDisplayHome {
+  display: block;
+  justify-content: left;
+  align-items: center;
   width: fit-content;
   height: 15rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
 .card {
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   border: 1px solid white;
   align-items: center;
+  gap: 2rem;
+}
+.cardComment {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: .5rem;
 }
 .projectTitle {
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid blue;
+  margin-bottom: .5rem;
 }
 .projectDescription {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-top: .5rem;
+}
+.projectDisplayHome1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: fit-content;
+  height: 15rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 5rem;
+}
+.projectTitle1 {
   justify-content: center;
   align-items: center;
-
+  border-bottom: 1px solid blue;
+  margin-bottom: .5rem;
+}
+.projectDescription1 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  margin-top: .5rem;
 }

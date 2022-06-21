@@ -35,7 +35,7 @@ render(
          <Route path="InPersonSprintBlog" element={<InPersonSprintBlog />} /> */}
       </Route> 
     </Routes>
-    <footer className="footer">Contact me at: <br/> chadcooper06@gmail.com </footer>
+    <footer className="footer">Contact me at: chadcooper06@gmail.com </footer>
   </Browser>,
   rootElement
 );
