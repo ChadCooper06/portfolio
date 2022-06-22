@@ -23,11 +23,11 @@ const rootElement = document.getElementById("root");
 render(
   <Browser>
     <Routes className="body">
-      <Route path="/" element={<App />}>
-        <Route path="/" element={<Home />} />
-        <Route path="AboutMe" element={<AboutMe />} />
-        <Route path="Projects" element={<Projects />} />
-        <Route path="Blog" element={<Blog />} />
+      <Route path="/" classname= 'click' element={<App />}>
+        <Route path="/" classname= 'click' element={<Home />} />
+        <Route path="AboutMe" classname= 'click' element={<AboutMe />} />
+        <Route path="Projects" classname= 'click' element={<Projects />} />
+        <Route path="Blog" classname= 'click' element={<Blog />} />
 {/*          <Route path="PythonBlog" element={<PythonBlog />} />
          <Route path="FrontendFinishLineBlog" element={<FrontendFinishLineBlog />} />
          <Route path="WelcometoReactBlog" element={<WelcometoReactBlog />} />

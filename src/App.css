@@ -1,9 +1,9 @@
 
 html {
-  background-image: ;
+  background-color: rgb(210, 242, 246);
 }
 .footer {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,12 +15,17 @@ html {
   align-items: center;
   padding: 1rem;
   gap: .3rem;
-  background-color: antiquewhite;
+  background-color: whitesmoke;
 }
 .links {
   display: inline-flex;
-  gap: .2rem;
-  text-decoration-color: blue;
+  gap: .3rem;
+}
+.nav-link {
+  color: dimgrey;
+}
+.icon {
+  color: #27C482;
 }
 .homePageContainer {
   display: flex;
@@ -31,6 +36,7 @@ html {
 }
 .homeLeft {
   width: fit-content;
+  background-image: ;
 }
 .homePageHeader {
   display: flex;
@@ -41,6 +47,7 @@ html {
   margin-top: auto;
   margin-bottom: 0;
   padding-top: 2.5rem;
+  color: #27C482;
 }
 .homePageSubheader {
   display: flex;
@@ -59,7 +66,6 @@ html {
   align-items: center;
   font-size: 2rem;
   gap: 1rem;
-
 }
 .recentProjects {
   display: flex;
@@ -100,8 +106,9 @@ html {
 .projectTitle {
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #27C482;
   margin-bottom: .5rem;
+  font-size: 2rem;
 }
 .projectDescription {
   display: flex;
@@ -122,12 +129,41 @@ html {
 .projectTitle1 {
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #27C482;
   margin-bottom: .5rem;
+  font-size: 2rem;
 }
 .projectDescription1 {
   display: flex;
   justify-content: center;
   align-items: left;
   margin-top: .5rem;
+}
+.seeMore {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.seeMoreBtn {
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 90%;
+  background-color: whitesmoke;
+  color: #27C482;
+}
+.projectPageDiv {
+  padding: 3rem;
+}
+
+/* ABOUT PAGE */
+
+.aboutPageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-bottom: 1px solid #27C482;
+  margin: 1rem;
 }
