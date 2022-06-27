@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-//import headShot from '../images/headshotSquare.jpeg';
 import finalproject from './images/finalproject.png';
 import tictactoe from './images/tictactoe.png';
 import weatherapp from './images/weatherapp.png';
@@ -21,9 +20,9 @@ export default function Home() {
         <h1 className="homePageHeader">Chad Cooper</h1>
         <p className="homePageSubheader">Full Stack Web Developer</p>
       </div>
-      {/* <div className="homeRight">
-        <img className="headShot" src={headShot} alt="headshot"></img>
-      </div> */}
+      <div className="homeRight">
+        <div className="headShot"></div>
+      </div>
     </div>
         <h3 className="recentProjects">Recent Projects</h3>
       <div className="belowTheFold">
