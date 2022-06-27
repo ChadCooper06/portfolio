@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import { GoDeviceMobile, GoMarkGithub, GoMail } from "react-icons/go";
+import { GoMarkGithub, GoMail } from "react-icons/go";
+import { GrLinkedin } from "react-icons/gr";
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <div className="iconBlock">
           <Link className="icon" to="mailto:chadcooper06@gmail.com" width="60px" height="60px" alt="email"><GoMail /></Link>
           <Link className="icon" to="https://github.com/chadcooper06" width="60px" height="60px" alt="github"><GoMarkGithub /></Link>
-          <Link className="icon" to="tel:+8596996947" width="60px" height="60px" alt="call me"><GoDeviceMobile /></Link> 
+          <Link className="icon" to="https://www.linkedin.com/in/chad-cooper-dev/" width="60px" height="60px" alt="call me"><GrLinkedin /></Link> 
         </div>
       </div>
   <Outlet />

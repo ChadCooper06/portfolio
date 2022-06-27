@@ -5,7 +5,7 @@ export default function Blog() {
 
   return (
     <div className="blogPageContainer">
-        <h1 className="aboutPageHeader">Blog.</h1>
+        <h1 className="aboutPageHeader">Read about my journey!</h1>
       <div>
         <h4 className="blogHeader">Week 1</h4>
         <p className="blogTeaserText">This has been one of my favorite weeks! I didn’t want to stop working on my project and felt like I could have kept adding to it forever. Since we just started Python last week...</p>

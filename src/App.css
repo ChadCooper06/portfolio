@@ -1,13 +1,14 @@
 
 html {
-  background-color: #327FF7;
+  background-color: whitesmoke;
 }
 .footer {
-  background-color: whitesmoke;
+  background-color: #142239;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: .5rem;
+  color: grey;
 }
 .nav {
   display: flex;
@@ -15,7 +16,7 @@ html {
   align-items: center;
   padding: .5rem;
   gap: .3rem;
-  background-color: whitesmoke;
+  background-color: #142239;
 }
 .links {
   display: inline-flex;
@@ -23,10 +24,10 @@ html {
   padding: .5rem;
 }
 .nav-link {
-  color: dimgrey;
+  color: grey;
 }
 .nav-link:hover {
-  color: #232FB6;
+  color: #327FF7;
 }
 .icon {
   color: #27C482;
@@ -47,22 +48,42 @@ html {
 .homeLeft {
   display: block;
   width: 100%;
+  max-width: 1584px;
   height: 50vh;
+  max-height: 396px;
   background-image: url(./images/Simple\ Technology\ LinkedIn\ Banner.png);
 }
 .homeRight {
-  display: block;
-  max-width: 200px;
-  max-height: 500px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 .headshot {
   border: 2px solid white;
   border-radius: 50%;
   width: 190px;
   height: 450px;
-  background-image: url(./images/bootcamp-small.jpeg);
+  background-image: url(./images/bootcamp-small.png);
+}
+.skillset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #232FB6;
+  text-shadow: 1px 1px #B26EFD;
+  padding-right: 3rem;
+  margin-left: 1.5rem;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 3rem;
+  color: #327FF7;
+  text-indent: 4rem;
 }
 .homePageHeader {
   display: flex;
@@ -85,7 +106,7 @@ html {
   margin-top: 0;
   padding-left: 3.5rem;
   color: dimgrey;
-  text-shadow: 1px 1px #7CD8AE;
+  text-shadow: 1px 1px white;
 }
 .iconBlock {
   display: inline-flex;
@@ -100,8 +121,9 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  color: white;
-  text-shadow: 1px 1px #327FF7;
+  color: #327FF7;
+  text-shadow: 1px 1px #B26EFD;
+  margin: 8rem 1rem 3rem 1rem;
 }
 .belowTheFold {
   display: flex;
@@ -118,13 +140,14 @@ html {
   height: 15rem;
   font-size: 1.5rem;
   font-weight: bold;
+  padding-left: .2rem;
 }
 .card {
   display: flex;
   justify-content: space-between;
-  border: 1px solid white;
   align-items: center;
-  gap: 2rem;
+  gap: 6rem;
+  padding: 1rem;
 }
 .cardComment {
   display: flex;
@@ -132,9 +155,16 @@ html {
   justify-content: flex-end;
   align-items: center;
   padding: .5rem;
-  color: white;
+  color: #232FB6;
 }
 .projectTitle {
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #27C482;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+}
+.projectTitle1 {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #27C482;
@@ -157,13 +187,7 @@ html {
   font-size: 1.5rem;
   font-weight: bold;
   padding-left: 5rem;
-}
-.projectTitle1 {
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #27C482;
-  margin-bottom: .5rem;
-  font-size: 2rem;
+  padding-right: .2rem;
 }
 .projectDescription1 {
   display: flex;
@@ -183,16 +207,13 @@ html {
   width: 10rem;
   height: 2rem;
   border-radius: 45%;
-  background-color: whitesmoke;
+  background-color: #327FF7;
   color: #232FB6;
   font-size: 1rem;
 }
 .seeMoreBtn:hover {
   cursor: pointer;
   color: #27C482;
-}
-.projectPageDiv {
-  padding: 3rem;
 }
 
 /* ABOUT PAGE */
@@ -204,4 +225,48 @@ html {
   font-size: 3rem;
   border-bottom: 1px solid #27C482;
   margin: 1rem;
+  color: #327FF7;
+  text-shadow: 1px 1px #B26EFD;
+  padding: 3rem 0rem;
+}
+.aboutMeBio {
+  font-size: 1.2rem;
+  margin-bottom: 10rem;
+  padding: 1rem;
+}
+
+/* PROJECTS PAGE */
+
+.projectPageDiv {
+  color: #232FB6;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.projectPageTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3.5rem;
+  color: #327FF7;
+  text-shadow: 1px 1px #B26EFD;
+}
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  font-size: 1.5rem
+}
+.project1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
 }

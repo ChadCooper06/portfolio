@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import finalproject from './images/finalproject.png';
 import tictactoe from './images/tictactoe.png';
 import weatherapp from './images/weatherapp.png';
+import { SiBootstrap, SiCss3, SiHtml5, SiReact, SiDjango, SiPython, SiPostgresql, SiPostman, SiHeroku, SiJavascript } from 'react-icons/si';
 
 
 
@@ -22,6 +23,9 @@ export default function Home() {
       </div>
       <div className="homeRight">
         <div className="headShot"></div>
+        <h4 className='skillset'>My Skills:</h4>
+          <p className='skills'><SiHtml5 /><SiCss3 /><SiJavascript /><SiReact /><SiPython /><br />
+            <SiBootstrap /><SiPostgresql /><SiPostman /><SiDjango /><SiHeroku /></p>
       </div>
     </div>
         <h3 className="recentProjects">Recent Projects</h3>
