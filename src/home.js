@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-//import headShot from '../pictures/headshotSquare.jpeg';
+//import headShot from '../images/headshotSquare.jpeg';
 import finalproject from './images/finalproject.png';
 import tictactoe from './images/tictactoe.png';
 import weatherapp from './images/weatherapp.png';
