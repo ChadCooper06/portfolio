@@ -1,6 +1,6 @@
 
 html {
-  background-color: rgb(210, 242, 246);
+  background-color: rgb(75, 90, 156);
 }
 .footer {
   background-color: whitesmoke;
@@ -32,7 +32,6 @@ html {
   flex-flow: wrap;
   justify-content: left;
   align-items: center;
-
 }
 .homeLeft {
   display: block;
@@ -49,17 +48,19 @@ html {
   margin-top: auto;
   margin-bottom: 0;
   padding-top: 2.5rem;
+  padding-left: .5rem;
   color: #27C482;
 }
 .homePageSubheader {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 3rem;
   margin-bottom: 2rem;
   margin-top: 0;
-  padding-left: 0;
+  padding-left: 3.5rem;
   color: dimgrey;
+  text-shadow: 1px 1px #7CD8AE;
 }
 .iconBlock {
   display: inline-flex;
@@ -74,6 +75,7 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  text-shadow: 1px 1px #7CD8AE;
 }
 .belowTheFold {
   display: flex;
@@ -117,6 +119,7 @@ html {
   justify-content: center;
   align-items: right;
   margin-top: .5rem;
+  font-size: 1.2rem;
 }
 .projectDisplayHome1 {
   display: flex;
@@ -140,6 +143,7 @@ html {
   justify-content: center;
   align-items: left;
   margin-top: .5rem;
+  font-size: 1.2rem;
 }
 .seeMore {
   display: flex;
