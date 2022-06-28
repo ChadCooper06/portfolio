@@ -270,3 +270,16 @@ html {
   padding-top: 1.5rem;
   font-size: 1.5rem;
 }
+
+/* BLOG PAGE */
+
+.blogHeader {
+  font-size: 1.8rem;
+  color: #232FB6;
+  padding-left: 1rem;
+}
+.blogText {
+  font-size: 1.1rem;
+  color: #142239;
+  padding: 0rem 1rem 1.2rem 1rem;
+}
