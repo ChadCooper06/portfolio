@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
-  "homepage": "https://chadcooper06.github.io/portfolio/gh-pages",
+  "homepage": "https://chadcooper06.github.io/portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
