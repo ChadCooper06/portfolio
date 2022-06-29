@@ -25,7 +25,7 @@ render(
         <Route path="Blog" classname= 'click' element={<Blog />} />
       </Route> 
     </Routes>
-    <footer className="footer">Contact me at: chadcooper06@gmail.com </footer>
+    <footer className="footer">Contact me at: chadcooper06@gmail.com</footer>
   </Browser>,
   rootElement
 );

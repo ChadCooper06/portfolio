@@ -16,9 +16,9 @@ function App() {
           <Link className="nav-link" to="/blog">BLOG</Link>
         </div> 
         <div className="iconBlock">
-          <Link className="icon" to="mailto:chadcooper06@gmail.com" width="60px" height="60px" alt="email"><GoMail /></Link>
-          <Link className="icon" to="https://github.com/chadcooper06" width="60px" height="60px" alt="github"><GoMarkGithub /></Link>
-          <Link className="icon" to="https://www.linkedin.com/in/chad-cooper-dev/" width="60px" height="60px" alt="call me"><GrLinkedin /></Link> 
+          <a className="icon" href="mailto:chadcooper06@gmail.com" width="60px" height="60px" alt="email"><GoMail /></a>
+          <a className="icon" href="https://github.com/chadcooper06" width="60px" height="60px" alt="github"><GoMarkGithub /></a>
+          <a className="icon" href="https://www.linkedin.com/in/chad-cooper-dev/" width="60px" height="60px" alt="call me"><GrLinkedin /></a> 
         </div>
       </div>
   <Outlet />
