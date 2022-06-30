@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-gh-pages/static/css/main.54742405.css",
-    "main.js": "/portfolio-gh-pages/static/js/main.911a39a6.js",
-    "static/media/restaurant.png": "/portfolio-gh-pages/static/media/restaurant.bbc94f7ad687f05b101f.png",
-    "static/media/bootcamp-small.png": "/portfolio-gh-pages/static/media/bootcamp-small.d6f3fe5ace7c87088998.png",
-    "static/media/to-do-list.png": "/portfolio-gh-pages/static/media/to-do-list.8374c777085298ea09ff.png",
-    "static/media/Simple Technology LinkedIn Banner.png": "/portfolio-gh-pages/static/media/Simple Technology LinkedIn Banner.7a0067fe7137742b8c92.png",
-    "static/media/finalproject.png": "/portfolio-gh-pages/static/media/finalproject.7f380a405dc3cbab34af.png",
-    "static/media/evercraft.png": "/portfolio-gh-pages/static/media/evercraft.0ec61461e806bdec4fd7.png",
-    "static/media/weatherapp.png": "/portfolio-gh-pages/static/media/weatherapp.f212ddbe93327bae3b70.png",
-    "static/media/tictactoe.png": "/portfolio-gh-pages/static/media/tictactoe.4fcf6590cb3100ec9ceb.png",
-    "index.html": "/portfolio-gh-pages/index.html",
-    "main.54742405.css.map": "/portfolio-gh-pages/static/css/main.54742405.css.map",
-    "main.911a39a6.js.map": "/portfolio-gh-pages/static/js/main.911a39a6.js.map"
+    "main.css": "/portfolio/static/css/main.255e93c3.css",
+    "main.js": "/portfolio/static/js/main.9fe33c9b.js",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.bbc94f7ad687f05b101f.png",
+    "static/media/bootcamp-small.png": "/portfolio/static/media/bootcamp-small.d6f3fe5ace7c87088998.png",
+    "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.8374c777085298ea09ff.png",
+    "static/media/Simple Technology LinkedIn Banner.png": "/portfolio/static/media/Simple Technology LinkedIn Banner.7a0067fe7137742b8c92.png",
+    "static/media/finalproject.png": "/portfolio/static/media/finalproject.7f380a405dc3cbab34af.png",
+    "static/media/evercraft.png": "/portfolio/static/media/evercraft.0ec61461e806bdec4fd7.png",
+    "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.f212ddbe93327bae3b70.png",
+    "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.4fcf6590cb3100ec9ceb.png",
+    "index.html": "/portfolio/index.html",
+    "main.255e93c3.css.map": "/portfolio/static/css/main.255e93c3.css.map",
+    "main.9fe33c9b.js.map": "/portfolio/static/js/main.9fe33c9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.54742405.css",
-    "static/js/main.911a39a6.js"
+    "static/css/main.255e93c3.css",
+    "static/js/main.9fe33c9b.js"
   ]
 }
