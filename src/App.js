@@ -18,7 +18,7 @@ function App() {
         <div className="iconBlock">
           <Link className="icon" onPress={() => useHref.openURL("mailto:chadcooper06@gmail.com")} width="60px" height="60px" alt="email" target="_blank"><GoMail /></Link>
           <Link className="icon" onPress={() => useHref.openURL("https://github.com/chadcooper06")} width="60px" height="60px" alt="github" target="_blank"><GoMarkGithub /></Link>
-          <Link className="icon" onProgress={() => useHref.openURL("https://www.linkedin.com/in/chad-cooper-dev/")} width="60px" height="60px" alt="call me" target="_blank"><GrLinkedin /></Link> 
+          <Link className="icon" onPress={() => useHref.openURL("https://www.linkedin.com/in/chad-cooper-dev/")} width="60px" height="60px" alt="call me" target="_blank"><GrLinkedin /></Link> 
         </div>
       </div>
   <Outlet />
