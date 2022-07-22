@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import {
   HashRouter as Browser,
   Routes,
@@ -15,7 +15,7 @@ import Blog from './blog';
 
 const rootElement = document.getElementById("root"); 
 
-render(
+ReactDOM.render(
   <Browser>
     <App />
     <Routes className="body">
