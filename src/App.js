@@ -37,6 +37,7 @@ function App() {
         </div>
       </div>
   <Outlet />
+  <footer className="footer">Contact me at: chadcooper06@gmail.com</footer>
   </div>
   
   );
