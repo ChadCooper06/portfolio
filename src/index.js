@@ -26,7 +26,7 @@ ReactDOM.render(
         <Route path="Blog" classname= 'click' element={<Blog />} />
       {/* </Route>  */}
     </Routes>
+    <footer className="footer">Contact me at: chadcooper06@gmail.com</footer>,
   </Router>,
-  <footer className="footer">Contact me at: chadcooper06@gmail.com</footer>,
   rootElement
 );
