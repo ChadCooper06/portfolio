@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  HashRouter as Browser,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -16,7 +16,7 @@ import Blog from './blog';
 const rootElement = document.getElementById("root"); 
 
 ReactDOM.render(
-  <Browser>
+  <Router>
     <App />
     <Routes className="body">
       {/* <Route path="/" classname= 'click' element={<App />}> */}
@@ -26,7 +26,7 @@ ReactDOM.render(
         <Route path="Blog" classname= 'click' element={<Blog />} />
       {/* </Route>  */}
     </Routes>
-    <footer className="footer">Contact me at: chadcooper06@gmail.com</footer>
-  </Browser>,
+  </Router>,
+  <footer className="footer">Contact me at: chadcooper06@gmail.com</footer>,
   rootElement
 );
