@@ -30,7 +30,7 @@ export default function Projects() {
             Multi-page site using routes to navigate between each page. <br />
             Shows only pertinent information from an API filled with various dishes and prices. <br />
             Created using React with hooks pulling info from an API.</p>
-          <a href="https://ChadCooper06/react-restaurant">
+          <a href="https://chadcooper06/react-restaurant">
             <img className="projectDisplayHome" src={restaurant} alt="project"></img>
           </a>
         </div>
@@ -41,7 +41,7 @@ export default function Projects() {
           <p className="projectDescription">To-do-list webpage dynamically rendered <br/> 
             using React Components. Allows users to create new to-do items and delete previously added items. <br />
             Dynamically adds to the current list of to-do items and renders as an extension of the "paper".</p>
-          <a href="https://ChadCooper06.github.io/to-do-list/">
+          <a href="https://chadcooper06.github.io/to-do-list/">
             <img className="projectDisplayHome" src={todolist} alt="project"></img>
           </a>
         </div>
