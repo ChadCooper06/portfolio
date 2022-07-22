@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ChadCooper06.github.io/portfolio.git/static/css/main.5d6ef53a.css",
-    "main.js": "/ChadCooper06.github.io/portfolio.git/static/js/main.b3c35c55.js",
-    "static/media/restaurant.png": "/ChadCooper06.github.io/portfolio.git/static/media/restaurant.bbc94f7ad687f05b101f.png",
-    "static/media/bootcamp-small.png": "/ChadCooper06.github.io/portfolio.git/static/media/bootcamp-small.d6f3fe5ace7c87088998.png",
-    "static/media/to-do-list.png": "/ChadCooper06.github.io/portfolio.git/static/media/to-do-list.8374c777085298ea09ff.png",
-    "static/media/Simple Technology LinkedIn Banner.png": "/ChadCooper06.github.io/portfolio.git/static/media/Simple Technology LinkedIn Banner.7a0067fe7137742b8c92.png",
-    "static/media/finalproject.png": "/ChadCooper06.github.io/portfolio.git/static/media/finalproject.7f380a405dc3cbab34af.png",
-    "static/media/evercraft.png": "/ChadCooper06.github.io/portfolio.git/static/media/evercraft.0ec61461e806bdec4fd7.png",
-    "static/media/weatherapp.png": "/ChadCooper06.github.io/portfolio.git/static/media/weatherapp.f212ddbe93327bae3b70.png",
-    "static/media/tictactoe.png": "/ChadCooper06.github.io/portfolio.git/static/media/tictactoe.4fcf6590cb3100ec9ceb.png",
-    "index.html": "/ChadCooper06.github.io/portfolio.git/index.html",
-    "main.5d6ef53a.css.map": "/ChadCooper06.github.io/portfolio.git/static/css/main.5d6ef53a.css.map",
-    "main.b3c35c55.js.map": "/ChadCooper06.github.io/portfolio.git/static/js/main.b3c35c55.js.map"
+    "main.css": "/portfolio/static/css/main.255e93c3.css",
+    "main.js": "/portfolio/static/js/main.a3a24073.js",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.bbc94f7ad687f05b101f.png",
+    "static/media/bootcamp-small.png": "/portfolio/static/media/bootcamp-small.d6f3fe5ace7c87088998.png",
+    "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.8374c777085298ea09ff.png",
+    "static/media/Simple Technology LinkedIn Banner.png": "/portfolio/static/media/Simple Technology LinkedIn Banner.7a0067fe7137742b8c92.png",
+    "static/media/finalproject.png": "/portfolio/static/media/finalproject.7f380a405dc3cbab34af.png",
+    "static/media/evercraft.png": "/portfolio/static/media/evercraft.0ec61461e806bdec4fd7.png",
+    "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.f212ddbe93327bae3b70.png",
+    "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.4fcf6590cb3100ec9ceb.png",
+    "index.html": "/portfolio/index.html",
+    "main.255e93c3.css.map": "/portfolio/static/css/main.255e93c3.css.map",
+    "main.a3a24073.js.map": "/portfolio/static/js/main.a3a24073.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d6ef53a.css",
-    "static/js/main.b3c35c55.js"
+    "static/css/main.255e93c3.css",
+    "static/js/main.a3a24073.js"
   ]
 }
