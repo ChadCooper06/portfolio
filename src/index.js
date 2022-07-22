@@ -27,5 +27,6 @@ ReactDOM.render(
       {/* </Route>  */}
     </Routes>
   </Router>,
+  <footer className="footer">Contact me at: chadcooper06@gmail.com</footer>,
   rootElement
 );
