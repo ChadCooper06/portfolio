@@ -20,7 +20,7 @@ render(
     <App />
     <Routes className="body">
       {/* <Route path="/" classname= 'click' element={<App />}> */}
-        <Route path="/" classname= 'click' element={<Home />} />
+        <Route path="Home" classname= 'click' element={<Home />} />
         <Route path="AboutMe" classname= 'click' element={<AboutMe />} />
         <Route path="Projects" classname= 'click' element={<Projects />} />
         <Route path="Blog" classname= 'click' element={<Blog />} />
